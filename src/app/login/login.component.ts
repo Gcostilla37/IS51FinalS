@@ -8,7 +8,6 @@ import { Subject } from 'rxjs';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
   constructor(private router: Router, private toastService: ToastService) {
   }
 
